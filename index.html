@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mere Papa Superhero | Father's Day</title>
+    <!-- Google Fonts for Comic Aesthetics -->
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Oswald:wght@500;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Comic Halftone Texture -->
+    <div class="halftone-bg"></div>
+
+    <main class="comic-container">
+        
+        <!-- ================= PAGE 1: HERO COVER ================= -->
+        <section id="page-cover" class="comic-page active">
+            <div class="cover-wrapper">
+                <!-- Comic Book Styled Frame for the Uploaded Image -->
+                <div class="hero-poster-frame">
+                    <img src="superhero.png" alt="Mere Papa Superhero" class="hero-image">
+                    <div class="action-badge">BEST PAPA!</div>
+                </div>
+
+                <!-- Intro Card -->
+                <div class="intro-card">
+                    <h1 class="comic-title">MERE PAPA <span class="highlight">SUPERHERO</span></h1>
+                    <p class="comic-sub">My Hero, My Guide, My Strength, My World.</p>
+                    
+                    <!-- Action Transition Button -->
+                    <button id="btn-enter" class="comic-btn">
+                        <span>UNLEASH THE STORY!</span>
+                        <div class="btn-pow">POW!</div>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PAGE 2: COMIC STRIP GRID ================= -->
+        <section id="page-stories" class="comic-page hidden">
+            <header class="stories-header">
+                <button id="btn-back" class="back-btn">⇠ Back to Cover</button>
+                <h2 class="section-title">THE DAILY ADVENTURES OF SUPER-DAD</h2>
+            </header>
+
+            <div class="comic-grid">
+                <!-- Panel 1: The Protector -->
+                <div class="comic-panel animate-panel">
+                    <div class="panel-tag">PANEL #1</div>
+                    <div class="panel-content protector-bg">
+                        <div class="speech-bubble alt-bubble left">
+                            "Don't worry beta, as long as I'm here, no spider or power cut can scare you!"
+                        </div>
+                    </div>
+                    <div class="panel-caption">MY PROTECTOR</div>
+                </div>
+
+                <!-- Panel 2: The Master Teacher -->
+                <div class="comic-panel animate-panel">
+                    <div class="panel-tag">PANEL #2</div>
+                    <div class="panel-content teacher-bg">
+                        <div class="speech-bubble right">
+                            "Study hard now! In my time, I walked 10 kilometers uphill both ways to school!"
+                        </div>
+                    </div>
+                    <div class="panel-caption">MY TEACHER</div>
+                </div>
+
+                <!-- Panel 3: The Ultimate Driver -->
+                <div class="comic-panel animate-panel">
+                    <div class="panel-tag">PANEL #3</div>
+                    <div class="panel-content driver-bg">
+                        <div class="speech-bubble left">
+                            "GPS? Who needs GPS? I know every shortcut in this entire city by heart!"
+                        </div>
+                    </div>
+                    <div class="panel-caption">THE DRIVER</div>
+                </div>
+
+                <!-- Panel 4: The Forever Supporter -->
+                <div class="comic-panel animate-panel">
+                    <div class="panel-tag">PANEL #4</div>
+                    <div class="panel-content supporter-bg">
+                        <div class="speech-bubble right">
+                            "Go chase your dreams. If you fall, I've got your back. Always."
+                        </div>
+                    </div>
+                    <div class="panel-caption">FOREVER SUPPORTER</div>
+                </div>
+            </div>
+
+            <!-- New Section: Polaroid Memory & Sweet Message -->
+            <div class="memory-showcase animate-panel">
+                <div class="polaroid-frame">
+                    <img src="betaandpapa.jpg" alt="Beta and Papa Memory" class="polaroid-img">
+                    <div class="polaroid-caption">I Love You, Papa! ❤️</div>
+                </div>
+            </div>
+
+            <!-- Custom Comic Message Card -->
+            <footer class="comic-footer">
+                <div class="yellow-box">
+                    <p class="handwritten-text">
+                        Thank you for being my first hero and always my greatest support. Happy Father's Day to the real superhero who doesn't need a cape to save the day! 
+                    </p>
+                </div>
+            </footer>
+        </section>
+
+    </main>
+
+    <script src="style.js"></script>
+</body>
+</html>
